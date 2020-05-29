@@ -8,11 +8,15 @@ class Anagram
   def match(array)
     word_match = @word.split("")
     
-    array.each do |p_match|
-      p_match.split("")
+    array.each do |words|
+      p_match = words.split("")
+        word_match.all? do |letter|
+          letter == p_match
+        end
+      end
     end
     
-    word_match.all? do |letter|
+    
       
       
       
