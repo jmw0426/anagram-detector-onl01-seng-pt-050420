@@ -6,7 +6,7 @@ class Anagram
   end
   
   def match(array)
-    if array = []
+    if array =
       
     word_match = @word.split("")
     
