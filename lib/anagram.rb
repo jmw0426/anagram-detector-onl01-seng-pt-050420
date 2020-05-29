@@ -5,8 +5,17 @@ class Anagram
     @word = word
   end
   
-  def match
-    @word.collect do |word|
+  def match(array)
+    word_match = @word.split("")
+    
+    array.each do |p_match|
+      p_match.split("")
+    end
+    
+    word_match.all? do |letter|
+      
+      
+      
       
   end
 
