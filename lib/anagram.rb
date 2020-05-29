@@ -9,5 +9,5 @@ class Anagram
     array.select { |match|
       match.split("").sort == word.split("").sort
     }
-
+end
 end
