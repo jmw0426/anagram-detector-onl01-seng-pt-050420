@@ -11,7 +11,8 @@ class Anagram
     array.each do |words|
       p_match = words.split("")
         word_match.all? do |letter|
-          letter == p_match
+          if letter == p_match
+            p_match
         end
       end
     end
