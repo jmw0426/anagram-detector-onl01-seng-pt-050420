@@ -13,6 +13,7 @@ class Anagram
         word_match.all? do |letter|
           if letter == p_match
             p_match
+          end
         end
       end
     end
